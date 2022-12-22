@@ -8,7 +8,7 @@ Three variants of mixup are considered for text classification
 2. Hidden/Encoder mixup: Mixup is done prior to the last fully connected layer
 3.  Sentence mixup: Mixup is done before softmax
 
-# Run Supervised Training with Mixup Augmentation
+## Run Supervised Training with Mixup Augmentation
 
 ```python
 from tqdm import tqdm
