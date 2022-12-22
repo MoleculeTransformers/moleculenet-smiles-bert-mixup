@@ -16,7 +16,7 @@ SAMPLES_PER_CLASS = [50, 100, 150, 200, 250]
 N_AUGMENT = [0, 2, 4, 8, 16]
 DATASETS = ['bace', 'bbbp']
 METHODS = ['embed', 'encoder', 'sent']
-OUTPUT_FILE = '/nethome/skhan/mixup-text/eval_result_mixup_augment_v1.csv'
+OUTPUT_FILE = 'eval_result_mixup_augment_v1.csv'
 N_TRIALS = 20
 EPOCHS = 20
 
@@ -35,4 +35,4 @@ for method in METHODS:
 
 
 Acknowledgement:
-The code in this repository is mainly adapted from the repo "![xashru/mixup-text](https://github.com/xashru/mixup-text)". 
+The code in this repository is mainly adapted from the repo "[xashru/mixup-text](https://github.com/xashru/mixup-text)". 
