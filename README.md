@@ -1,4 +1,5 @@
-# mixup-text
+# MoleculeNet SMILES BERT Mixup
+
 This repository contains implementation of mixup strategy for text classification. The implementation is primarily based on the paper [Augmenting Data with Mixup for Sentence Classification: An Empirical Study
 ](https://arxiv.org/abs/1905.08941), although there is some difference.
 
@@ -34,5 +35,5 @@ for method in METHODS:
 
 
 
-Acknowledgement:
+## Acknowledgement:
 The code in this repository is mainly adapted from the repo "[xashru/mixup-text](https://github.com/xashru/mixup-text)". 
