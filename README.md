@@ -31,3 +31,8 @@ for method in METHODS:
                   --out-file={OUTPUT_FILE} --n-augment={n_augment}
                   !cat {OUTPUT_FILE}
 ```
+
+
+
+Acknowledgement:
+The code in this repository is mainly adapted from the repo "![xashru/mixup-text](https://github.com/xashru/mixup-text)". 
