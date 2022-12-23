@@ -37,3 +37,7 @@ def evaluate_model(args, model_mlp, test_dataloader, criterion, set_device):
         auroc_test_history.append(auroc)
 
         print(f"Test => AUROC score: {auroc_test_history[-1]} ")
+        with open(args.out_file, "a+") as f:
+            f.write(
+                f"{args.dataset_name}, {args.samples_per_class}, {args.n_augment}, {auroc_test_history[-1]}\n"
+            )
